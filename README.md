@@ -172,3 +172,32 @@ Baizo is strictly **local-first** and **read-only**:
 - Does not modify, overwrite, delete, or rename files.
 - Does not upload your files or metadata to third-party cloud services.
 - Explorer actions (`--open`) only reveal items in your local desktop File Explorer.
+
+---
+
+## 👨‍💻 Author & Credits
+
+### Author
+* **S Sanjai** ([@baizo7](https://github.com/baizo7))
+  * GitHub: [https://github.com/baizo7](https://github.com/baizo7)
+  * Repository: [https://github.com/baizo7/Local_agent](https://github.com/baizo7/Local_agent)
+
+### Credits & Acknowledgments
+Special thanks to the open-source technologies and libraries powering Baizo:
+* **SQLite Team** – for the lightning-fast [FTS5](https://www.sqlite.org/fts5.html) full-text indexing engine.
+* **Textualize / Rich** – for terminal tables, styling, and color rendering.
+* **PyPDFium2** – for high-performance PDF text stream extraction.
+* **Watchdog** – for cross-platform live directory change notifications.
+* **Python Software Foundation** – for standard library concurrency, XML parsing, and Win32 interop.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+---
+
+<p align="center">
+  <b>Baizo</b> • Built by <a href="https://github.com/baizo7">S Sanjai</a>
+</p>

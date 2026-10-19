@@ -7,8 +7,9 @@ name = "baizo"
 version = "0.2.0"
 description = "Baizo: Intelligent local-first desktop search engine, indexer, and AI assistant."
 readme = {file = "README.md", content-type = "text/markdown"}
-requires-python = ">=3.10"
-authors = [{name = "Baizo Contributors", email = "contributors@baizo.ai"}]
+authors = [
+    {name = "S Sanjai", email = "sanjai123@example.com"},
+]
 license = "MIT"
 keywords = [
     "search",
