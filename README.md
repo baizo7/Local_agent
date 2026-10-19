@@ -45,14 +45,45 @@ It operates entirely on your machine, requires zero external services by default
 
 ## 🚀 Installation
 
-Install Python 3.10 or newer. In PowerShell:
+Requires **Python 3.10** or newer.
+
+### Option 1: Install Directly from GitHub (Recommended)
+
+You can install Baizo directly on any machine without manually cloning the repository:
 
 ```powershell
-cd D:\projects\agent
+# Using pip
+pip install git+https://github.com/baizo7/Local_agent.git
+
+# Recommended: as an isolated global CLI tool via pipx
+pipx install git+https://github.com/baizo7/Local_agent.git
+```
+
+With optional document parsers (PDF, Word, Excel, PPTX) and real-time watcher:
+```powershell
+pip install "git+https://github.com/baizo7/Local_agent.git#egg=baizo[all]"
+```
+
+---
+
+### Option 2: Install from Source (For Developers)
+
+```powershell
+git clone https://github.com/baizo7/Local_agent.git
+cd Local_agent
 py -m pip install -e .
 ```
 
-Both `baizo` and `jarvis` commands will be available in your PATH.
+---
+
+### Option 3: Install from Built Wheel (.whl)
+
+If you downloaded the `.whl` package:
+```powershell
+py -m pip install dist/baizo-0.2.0-py3-none-any.whl
+```
+
+Once installed, both `baizo` and `jarvis` commands will be immediately available in your terminal.
 
 ---
 
