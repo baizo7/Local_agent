@@ -66,17 +66,7 @@ pip install "git+https://github.com/baizo7/Local_agent.git#egg=baizo[all]"
 
 ---
 
-### Option 2: Install from Source (For Developers)
-
-```powershell
-git clone https://github.com/baizo7/Local_agent.git
-cd Local_agent
-py -m pip install -e .
-```
-
----
-
-### Option 3: Install from Built Wheel (.whl)
+### Option 2: Install from Built Wheel (.whl)
 
 If you downloaded the `.whl` package:
 ```powershell
