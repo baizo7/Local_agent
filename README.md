@@ -73,7 +73,7 @@ If you downloaded the `.whl` package:
 py -m pip install dist/baizo-0.2.0-py3-none-any.whl
 ```
 
-Once installed, both `baizo` and `jarvis` commands will be immediately available in your terminal.
+Once installed, `baizo`command will be immediately available in your terminal.
 
 ---
 
